@@ -1,4 +1,4 @@
-import 'package:calculator_app/feature/button/domain/entities/button_entity.dart';
+import 'package:calculator_app/feature/domain/entities/button_entity.dart';
 
 class ButtonModel extends ButtonEntity {
   ButtonModel({

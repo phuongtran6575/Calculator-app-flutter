@@ -1,6 +1,6 @@
 import 'package:calculator_app/core/usecase/usecase.dart';
-import 'package:calculator_app/feature/button/domain/entities/button_entity.dart';
-import 'package:calculator_app/feature/button/domain/repository/button_repository.dart';
+import 'package:calculator_app/feature/domain/entities/button_entity.dart';
+import 'package:calculator_app/feature/domain/repository/button_repository.dart';
 
 class GetListButtonUsecase implements Usecase<List<ButtonEntity>, NoParams> {
   ButtonRepository buttonRepository;
